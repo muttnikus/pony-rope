@@ -5,7 +5,8 @@ PKG=rope
 
 bin/test: $(shell find ${PKG} .deps -name *.pony)
 	mkdir -p bin
-	ponyc --debug -o bin ${PKG}/test
+	corral fetch
+	corral run -- ponyc --debug -o bin ${PKG}/test
 
 test: bin/test
 	$^

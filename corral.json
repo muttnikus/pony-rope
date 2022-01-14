@@ -1,0 +1,14 @@
+{
+  "packages": [
+    "rope"
+  ],
+  "deps": [],
+  "info": {
+    "description": "Pony implementation of a rope data structure, with an emphasis on efficient, zero-copy manipulation of byte buffers",
+    "homepage": "https://github.com/jemc/pony-rope",
+    "license": "",
+    "documentation_url": "https://github.com/jemc/pony-rope",
+    "version": "0.1.0",
+    "name": "pony-rope"
+  }
+}
